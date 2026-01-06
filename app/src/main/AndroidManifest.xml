@@ -12,6 +12,8 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.TextShare"
         tools:targetApi="31">
+
+        <!-- Use JavaActivity for Java version, or replace with KotlinActivity to run Kotlin version -->
         <activity
             android:name=".JavaActivity"
             android:exported="true"
